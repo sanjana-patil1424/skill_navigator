@@ -158,7 +158,7 @@
    - Responsibilities: Semantic skill gap analysis, roadmap generation, soft skill evaluation, free resource suggestions  
    - Response Format: Structured JSON validated by Flask backend before frontend rendering  
 
-### ** Page Architecture**
+ # ** Page Architecture**
 - **Landing Page** → Animated hero section, feature highlights, CTA to analysis  
 - **Skill Gap Analysis (/analyze)** → Skill tag input, job goal selector, Skill Score gauge, missing skills list  
 - **Technical Roadmap (/analyze#roadmap)** → Roadmap cards per skill, free resource links, progress indicators  
