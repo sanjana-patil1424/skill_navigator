@@ -1,5 +1,5 @@
-# skill_navigator
-# Problem Statement
+#  skill_navigator
+#  Problem Statement
 
 1. The technology industry is evolving rapidly, creating a persistent gap between the skills of graduating students and the competencies demanded by employers.  
 2. Traditional career counseling and skill assessment methods are manual, time-consuming, and fail to provide personalized, actionable guidance at scale.  
@@ -13,7 +13,7 @@
    - Provide interactive dashboards, scheduled calendars, and real-time progress tracking to keep learners motivated and accountable.
   
    
-# Novelty of the work
+#  Novelty of the work
 1. **Integrated Dual-Domain Assessment**  
    - Unlike existing tools that focus only on technical or soft skills, this platform uniquely integrates both domains.  
    - Students receive a complete picture of job readiness, covering technical competencies and behavioral soft skills.  
@@ -158,7 +158,7 @@
    - Responsibilities: Semantic skill gap analysis, roadmap generation, soft skill evaluation, free resource suggestions  
    - Response Format: Structured JSON validated by Flask backend before frontend rendering  
 
- ### Page Architecture
+ ###  Page Architecture
 - **Landing Page** → Animated hero section, feature highlights, CTA to analysis  
 - **Skill Gap Analysis (/analyze)** → Skill tag input, job goal selector, Skill Score gauge, missing skills list  
 - **Technical Roadmap (/analyze#roadmap)** → Roadmap cards per skill, free resource links, progress indicators  
@@ -168,7 +168,7 @@
 - **Platform Directory (/dashboard#platforms)** → Curated free platform cards (name, description, category, link)  
 - **Farewell Screen (/farewell)** → Motivational closing message, restart/dashboard CTA  
 
-### ** Data Flow (Textual Representation)**
+###  Data Flow (Textual Representation)
 1. User inputs skills and selects job goal.  
 2. Frontend sends POST request to `/analyze`.  
 3. Flask backend constructs structured prompt with skills + job role.  
@@ -181,7 +181,7 @@
 10. Frontend renders calendar + countdown timers.  
 
 
-### ** Key Design Decisions**
+###  Key Design Decisions
 - **Gemini API for AI analysis** → Provides advanced semantic skill matching with structured JSON output.  
 - **Flask Backend** → Lightweight, Python-native, supports rapid RESTful API development.  
 - **Client-Side Real-Time Updates** → Eliminates page reloads, ensures fluid and responsive UX.  
