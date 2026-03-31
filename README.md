@@ -1,5 +1,5 @@
 #  skill_navigator
-###  Problem Statement
+##  Problem Statement
 
 1. The technology industry is evolving rapidly, creating a persistent gap between the skills of graduating students and the competencies demanded by employers.  
 2. Traditional career counseling and skill assessment methods are manual, time-consuming, and fail to provide personalized, actionable guidance at scale.  
@@ -13,7 +13,7 @@
    - Provide interactive dashboards, scheduled calendars, and real-time progress tracking to keep learners motivated and accountable.
   
    
-###  Novelty of the work
+## Novelty of the work
 1. **Integrated Dual-Domain Assessment**  
    - Unlike existing tools that focus only on technical or soft skills, this platform uniquely integrates both domains.  
    - Students receive a complete picture of job readiness, covering technical competencies and behavioral soft skills.  
