@@ -1,4 +1,5 @@
 #  skill_navigator
+https://replit.com/@patilsanjana88/Skill-Navigator-Path?s=app
 ##  Problem Statement
 
 1. The technology industry is evolving rapidly, creating a persistent gap between the skills of graduating students and the competencies demanded by employers.  
