@@ -142,7 +142,7 @@
 
 ##  System Design
 
-### System Architecture (Three-Tier MVC)**
+### System Architecture (Three-Tier MVC)
 1. **Presentation Layer (View)**  
    - Technology: HTML5, CSS3, JavaScript (ES6+)  
    - Components: Dynamic skill tag input, animated SVG Skill Score gauge, interactive quiz flow, calendar renderer, countdown timers  
@@ -158,7 +158,7 @@
    - Responsibilities: Semantic skill gap analysis, roadmap generation, soft skill evaluation, free resource suggestions  
    - Response Format: Structured JSON validated by Flask backend before frontend rendering  
 
- # ** Page Architecture**
+ # Page Architecture
 - **Landing Page** → Animated hero section, feature highlights, CTA to analysis  
 - **Skill Gap Analysis (/analyze)** → Skill tag input, job goal selector, Skill Score gauge, missing skills list  
 - **Technical Roadmap (/analyze#roadmap)** → Roadmap cards per skill, free resource links, progress indicators  
